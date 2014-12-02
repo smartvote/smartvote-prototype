@@ -1,0 +1,114 @@
+/* 300, 400, 500, 700 */
+@import url("http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic");
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 0px !important;
+}
+
+.jumbotron {
+    color: white;
+    padding: 1em 2em 3em 2em !important;
+    margin: 0px;
+}
+
+.feature-nav-container {
+    margin:0px;
+    padding-top: 3em;
+    background-color: #153a6d;
+    color: white;
+    text-align: center;
+}
+
+.feature-nav-container .feature-nav-item {
+    position: relative;
+    padding-bottom: 7em;
+}
+
+.feature-nav-container h3 {
+    position:static;
+    font-size: 130%;
+    text-transform: uppercase;
+}
+
+.feature-nav-button {
+    position: absolute;
+    bottom: 3em;
+    width: 100%;
+    margin: -1em;
+}
+
+
+.bg-student {
+    background: url("../img/student.jpg");
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    font-size: 200%;
+    line-height: 200%;
+}
+
+.jumbotron p {
+    font-size: 110%;
+}
+
+.jumbotron button {
+    margin-top: 1em;
+    text-transform: uppercase;
+}
+
+#news-feed-area h2 {
+    font-size: 140%;
+    text-transform: uppercase;
+}
+
+#news-feed-area .date {
+    text-transform: uppercase;
+    font-size: 80%;
+    white-space: nowrap;
+    margin: 0px;
+}
+
+#news-feed-area .headline {
+    text-transform: uppercase;
+    font-size: 100%;
+    margin: 0px;
+}
+
+#news-feed-area .feed-item {
+    padding: 1em 0px;
+    border-bottom: 1px solid black;
+}
+
+#news-feed-area #calendar-link {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+#news-feed-area .lead {
+    font-size: 120%;
+}
+
+.big {
+    font-size: 180%;
+}
+
+.fact-item:not(:last-child) {
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+}
+
+header {
+    padding-bottom: 3px;
+}
+footer {
+    padding: 3em 0;
+}
+
+.legal {
+    text-align: center;
+    color: lightGrey;
+}
